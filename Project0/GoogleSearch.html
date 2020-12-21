@@ -3,15 +3,17 @@
     <head>
         <title>Search</title>
         <link rel="stylesheet" href="GoogleStyle.css">
+        <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap" rel="stylesheet">
     </head>
     <nav style = "text-align: right">
-        <a href="GoogleImageSearch.html">Google Image Search</a></li>
-        <a href="GoogleAdvancedSearch.html">Google Advanced Search</a></li>
+        <a class = "tabs" href="GoogleImageSearch.html">Image Search</a></li>
+        <a class = "tabs" href="GoogleAdvancedSearch.html">Advanced Search</a></li>
       </nav>
     <body>
-        <form  action="https://google.com/search">
-            <input class="centered" type="text" name="q">
-            <input type="submit" value="Google Search">
+        <img class = centered id = googleImg src="google.png" alt="Google.png">
+        <form class="centered" action="https://google.com/search">
+            <input type="text" name="q">
+            <input id = "Search" type="submit" value="Google Search">
         </form>
         
     </body>

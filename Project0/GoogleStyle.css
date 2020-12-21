@@ -1,0 +1,50 @@
+.centered {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+input[type = submit]{
+  width: 50%;
+  color: black;
+  padding: 14px 20px;
+  margin: 8px 8px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=text], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 25px;
+  box-sizing: border-box;
+}
+
+#Search {
+  position:relative; left:80px
+}
+
+#googleImg {
+  width: 15%;
+  height: 15%;
+  position:relative;
+  bottom: -400px
+}
+
+body {
+  font-family: 'Noto Sans JP', sans-serif;
+}
+
+.tabs {
+  font-family: 'Noto Sans JP', sans-serif;
+  font-size: 13px;
+  color: black;
+  text-decoration: none;
+  position: relative;
+  padding: 0px 2px;
+  right: .75%
+}
