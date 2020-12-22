@@ -5,7 +5,7 @@
     transform: translate(-50%, -50%);
   }
 input[type = submit]{
-  width: 50%;
+  width: 30%;
   color: black;
   padding: 14px 20px;
   margin: 8px 8px;
@@ -28,11 +28,15 @@ input[type=text], select {
   position:relative; left:80px
 }
 
+#Lucky{
+  position: relative; left:80px
+}
+
 #googleImg {
   width: 15%;
   height: 15%;
   position:relative;
-  bottom: -400px
+  bottom: -380px
 }
 
 body {
