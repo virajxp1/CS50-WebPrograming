@@ -14,7 +14,7 @@ input[type = submit]{
   cursor: pointer;
 }
 
-input[type=text], select {
+input[type=text], select, .inputFields{
   width: 100%;
   padding: 12px 20px;
   margin: 8px 0;
@@ -28,15 +28,28 @@ input[type=text], select {
   position:relative; left:80px
 }
 
+#ImageSearch {
+  width: 40%;
+  position: relative; left: 90px
+}
+
 #Lucky{
   position: relative; left:80px
 }
+
 
 #googleImg {
   width: 15%;
   height: 15%;
   position:relative;
   bottom: -380px
+}
+
+#AS_Img {
+  width: 7%;
+  height: 7%;
+  position:relative;
+  left: 60px ; 
 }
 
 body {
@@ -51,4 +64,34 @@ body {
   position: relative;
   padding: 0px 2px;
   right: .75%
+}
+
+li {
+  padding: 0px 0px;
+}
+
+.label {
+  position: relative;
+  left: -220px;
+  top: 27px;
+  margin-top: 0% ;
+  margin-bottom: 0%;
+  text-align: left;
+}
+
+.inputFields{
+  margin: 1px 0;
+}
+
+#AS_header {
+  font-size: 18px;
+  position: relative;
+  top: 12px;
+}
+
+#AS_button{
+  width: 70%;
+  position: relative;
+  left: 50px;
+  
 }

@@ -2,16 +2,18 @@
 <html lang="en">
     <head>
         <title>Search</title>
+        <link rel="stylesheet" href="GoogleStyle.css">
+        <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap" rel="stylesheet">
     </head>
     <nav style = "text-align: right">
-        <a href="GoogleSearch.html">Google Search</a></li>
-        <a href="GoogleAdvancedSearch.html">Google Advanced Search</a></li>
+        <a class = tabs href="GoogleSearch.html">Search</a></li>
+        <a class = tabs href="GoogleAdvancedSearch.html">Advanced Search</a></li>
       </nav>
     <body>
-        <form action="https://google.com/search">
+        <img class = centered id = googleImg src="image.png" alt="Google.png">
+        <form class = "centered" action="http://images.google.com/images">
             <input type="text" name="q">
-            <input type="submit" value="Google Search">
+            <input id = ImageSearch type="submit" value="Google Search">
         </form>
-        
     </body>
 </html>

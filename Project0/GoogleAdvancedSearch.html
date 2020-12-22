@@ -2,15 +2,26 @@
 <html lang="en">
     <head>
         <title>Search</title>
+        <link rel="stylesheet" href="GoogleStyle.css">
+        <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap" rel="stylesheet">
     </head>
     <nav style = "text-align: right">
-        <a href="GoogleImageSearch.html">Google Image Search</a></li>
-        <a href="GoogleSearch.html">Google Search</a></li>
+        <a class = "tabs" href="GoogleSearch.html">Search</a></li>
+        <a class = "tabs" href="GoogleImageSearch.html">Image Search</a></li>
       </nav>
     <body>
-        <form action="https://google.com/search">
-            <input type="text" name="q">
-            <input type="submit" value="Google Search">
+        <img class = centered id = AS_Img src="google.png" alt="Google.png">
+        <form class = centered action="https://google.com/search">
+            <p class = label id = AS_header>Find pages with...</p>
+            <ul  style = "list-style-type: none">
+                <li><p class = label>All these words:</p><input type="all these words:" class = "inputFields" name="as_q"></li>
+                <li><p class = label>This exact word or phrase:</p><input type="this exact word or phrase:" class = "inputFields" name="as_epq"></li>
+                <li><p class = label>Any of these words:</p><input type="any of these words:" class = "inputFields" name="as_oq"></li>
+                <li><p class = label>None of these words:</p><input type="none of these words:" class = "inputFields" name="as_eq"></li>
+                <li><p class = label>Numbers randing from:</p><input type="numbers ranging from:"class = "inputFields"  name="as_nlo"></li>
+                <li><p class = label>to:</p><input type="to" class = "inputFields" name="as_nhi"></li>
+            </ul>            
+            <input id = "AS_button" type="submit" value="Google Search">
         </form>
         
     </body>
